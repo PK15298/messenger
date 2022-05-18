@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    background-color: rgb(139, 245, 135);
+}
+
+#container {
+    margin-top: 10px;
+    display: flex;
+}
+
+#center1 {
+    border: 3px solid rgb(19, 202, 2);
+    background-color: rgb(54, 224, 62);
+    border-radius: 10px;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img1 {
+    width: 100px;
+    height: 100px;
+    margin: 0px 0px 0px 10px;
+}
+
+#img2 {
+    width: 150px;
+    height: 150px;
+    align-self: start;
+    margin: 15px;
+}
+
+#span1 {
+    display: flex;
+    align-items: start;
+    margin: 10px;
+}
+
+#h1 {
+    font-size: 55px;
+    font-weight: 500;
+    color: rgb(4, 0, 255);
+    font-family: 'Mukta', sans-serif;
+}
+
+#label1 {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Signika', sans-serif;
+}
+
+#hr1 {
+    height: 5px;
+    background-color: rgb(211, 11, 11);
+    align-self: start;
+    margin: -9px 0px 0px 0px;
+    border-width: 0;
+}
+
+#div1 {
+    margin-top: -20px;
+}
+
+#label2,
+#label3 {
+    border: 0px solid firebrick;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    margin: 9px 9px 3px 9px;
+    padding: 0px 0px 3px;
+}
+
+#span2 {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#hr2 {
+    height: 3px;
+    border-width: 0;
+    background-color: firebrick;
+    margin: 0;
+    align-self: start;
+}
+
+#center2 {
+    background-color: rgb(108, 255, 248);
+    border: 3px solid rgb(92, 190, 0);
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#label4 {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Lobster', cursive;
+}
+
+#div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#login,
+#signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-top: 25px;
+}
+
+input {
+    background-color: rgb(108, 255, 248);
+    border: 1px solid blue;
+    color: green;
+    border-width: 0px 0px 2px 0px;
+    width: 300px;
+    margin: 9px;
+    font-size: 18px;
+}
+
+::placeholder {
+    color: green;
+    font-size: 18px;
+}
+
+.label5 {
+    align-self: start;
+    margin: 3px 0px 0px 9px;
+    color: rgb(6, 83, 250);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.span3 {
+    font-weight: bold;
+}
+
+#hr3 {
+    width: 100%;
+    height: 3px;
+    margin: 15px 0px 0px 0px;
+    border-width: 0px;
+    background-color: rgb(92, 190, 0);
+}
+
+#loginb,
+#signupb {
+    font-size: 25px;
+    font-weight: 500;
+    background-color: rgb(75, 75, 247);
+    color: aliceblue;
+    border-color: darkblue;
+    padding: 3px 5px 3px 5px;
+    margin-top: 10px;
+}
