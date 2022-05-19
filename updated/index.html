@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Condensed&family=Signika:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body onload="change1();">
+    <div id="container">
+        <center id="center1">
+            <span id="span1">
+                <div id="div1">
+                    <label id="h1">Messenger</label>
+                    <hr id="hr1">
+                </div>
+                <img id="img1" src="2951.png">
+            </span>
+            <label id="label1">Join Messenger Today!</label>
+            <br>
+            <label id="label4">Communicate With People Around The World</label>
+            <img src="2952.png" id="img2">
+        </center>
+        <center id="center2">
+            <div id="div2">
+                <span id="span2">
+                    <label id="label2" onclick="change2()">Login</label>
+                    <label id="label3" onclick="change3()">Sign Up</label>
+                </span>
+                <hr id="hr2">
+            </div>
+            <hr id="hr3">
+            <div id="login">
+                <label for="#username" class="label5">User Name <span class="span3">:</span></label>
+                <input type="text" id="username" placeholder="User Name">
+                <label for="#password" class="label5">Password <span class="span3">:</span></label>
+                <input type="password" id="password" placeholder="Password">
+                <button id="loginb" onclick="login1()">Login</button>
+            </div>
+            <div id="signup">
+                <label for="#username1" class="label5">User Name <span class="span3">:</span></label>
+                <input type="text" id="username1" placeholder="User Name">
+                <label for="#password1" class="label5">Password <span class="span3">:</span></label>
+                <input type="password" id="password1" placeholder="Password">
+                <label for="#passwordc" class="label5">Confirm Password <span class="span3">:</span></label>
+                <input type="password" id="passwordc" placeholder="Confirm Password">
+                <button id="signupb" onclick="signup1()">Sign Up</button>
+            </div>
+        </center>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
